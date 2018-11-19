@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40" />
 
-  <title>DO笔记</title>
+  <title>Caddy快速使用手册 &middot; DO笔记</title>
 
   
   
@@ -39,8 +39,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="DO笔记" href="https://blog.dokeel.com/index.xml" />
   
 
   
@@ -111,10 +109,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://blog.dokeel.com/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -211,17 +205,12 @@
 
 
 <div class="header">
-  <h1>DO笔记</h1>
-  <h2>商学院/日本文化/前端初学者</h2>
+  <h1>Caddy快速使用手册</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.dokeel.com/2018/11/caddy%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/">Caddy快速使用手册</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -236,21 +225,40 @@
 
 </div>
 
-  </header>
-
-  <p>
-  安装 &hellip;
-配置入门  静态配置  cdn.dokeel.io:80 { root e:\upload\ index index.html index.htm ext .jpg .png log ./log/cdn.dokeel.io.log }  说明： :80 只解析http请求 log 配置日志文件
- 端口转发  参考文档 https://caddyserver.com/tutorial/beginner
-  </p>
-
-  
-</article>
-
   
 
-  
+<h4 id="安装">安装</h4>
 
+<p>&hellip;</p>
+
+<h4 id="配置入门">配置入门</h4>
+
+<ol>
+<li>静态配置</li>
+</ol>
+
+<pre><code>cdn.dokeel.io:80 {
+    root e:\upload\
+    index index.html index.htm
+    ext .jpg .png 
+    log ./log/cdn.dokeel.io.log
+}
+</code></pre>
+
+<p>说明：
+:80 只解析http请求
+log 配置日志文件</p>
+
+<ol>
+<li>端口转发</li>
+</ol>
+
+<h4 id="参考文档">参考文档</h4>
+
+<p><code>https://caddyserver.com/tutorial/beginner</code></p>
+
+
+  
 
 </div>
 
