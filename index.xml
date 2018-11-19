@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 2018 dokeel.</copyright>
-    <lastBuildDate>Fri, 09 Nov 2018 15:04:07 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Nov 2018 15:04:56 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.dokeel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>关于我</title>
+      <link>https://blog.dokeel.com/about/</link>
+      <pubDate>Fri, 09 Nov 2018 15:04:56 +0800</pubDate>
+      
+      <guid>https://blog.dokeel.com/about/</guid>
+      <description>1. 90后中老年人 2. 前端爱好者 3. 日语学习中 （待续.  </description>
+    </item>
     
     <item>
       <title>Caddy快速使用手册</title>
