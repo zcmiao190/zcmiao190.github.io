@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DO笔记</title>
-    <link>https://blog.dokeel.com/</link>
-    <description>Recent content on DO笔记</description>
+    <title>Posts on DO笔记</title>
+    <link>https://blog.dokeel.com/post/</link>
+    <description>Recent content in Posts on DO笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 2018 dokeel.</copyright>
     <lastBuildDate>Fri, 09 Nov 2018 15:04:56 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.dokeel.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.dokeel.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
